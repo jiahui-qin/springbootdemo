@@ -10,4 +10,11 @@
     <select id="Sel" resultType="com.example.springboot.entity.User">
         select * from user where id = #{id}
     </select>
+    <select id="login" resultType="com.example.springboot.entity.User">
+        SELECT * FROM user where userName = #{param1} and passWord = #{param2}
+    </select>
+
+    <insert id="register" parameterType="com.example.springboot.entity.User">
+        INSERT INTO user (userName, passWord) VALUES (#{userName}, #{passWord})
+    </insert>
 </mapper>
