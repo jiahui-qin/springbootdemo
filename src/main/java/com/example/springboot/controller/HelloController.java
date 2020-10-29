@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/Hello")
     public String hello(){
-        return author.getname() + " baidusdagvasd 111url is " + author.getbaiduurl();
+        return author.getname() + " baidu url is " + author.getbaiduurl();
     }
     //@Value("${name}")
     //private String name;

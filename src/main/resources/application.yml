@@ -1,6 +1,6 @@
 server.port: 8080
 author:
-  name: qinjiahui
+  name: saber
   baiduurl: https://baidu.com
 
 spring:
